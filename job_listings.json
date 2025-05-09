@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Python Developer",
+        "company": "TechSpark",
+        "required_skills": [
+            "Python",
+            "FastAPI",
+            "Git",
+            "Docker"
+        ]
+    },
+    {
+        "title": "Data Analyst",
+        "company": "DataMinds",
+        "required_skills": [
+            "SQL",
+            "Excel",
+            "Python",
+            "PowerBI"
+        ]
+    }
+]

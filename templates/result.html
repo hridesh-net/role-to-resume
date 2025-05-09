@@ -1,0 +1,17 @@
+<head>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+</head>
+<body>
+    
+    <md-block>
+    <h2>Resume Summary:</h2>
+    <pre>{{ resume }}</pre>
+    
+    <h2>Matched Roles:</h2>
+    <ul>
+        {% for match in matches %}
+        <li><strong>{{ match.job.title }}</strong> at {{ match.job.company }} — Match Score: {{ match.match_score }}</li>
+        {% endfor %}
+    </ul>
+</md-block>
+</body>
